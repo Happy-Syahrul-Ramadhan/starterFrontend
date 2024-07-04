@@ -15,6 +15,15 @@ const Navbar = () => {
       label: "All Articles",
       path: "/posts",
     },
+    {
+      label: "About",
+      path: "/abouts",
+    },
+    {
+      label: "Event",
+      path: "/events",
+    },
+    
   ];
 
   return (

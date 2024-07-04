@@ -5,11 +5,11 @@ export const WEBSITE_TWITTER_HANDLE = "@twitter";
 export const DEFAULT_OG_IMAGE = "/public/assets/blog/cover-1.png";
 
 export const DEFAULT_SEO: iMetaData = {
-  title: "Blog Website | Made with Next JS",
-  description: "A simple blog website made using NextJs, TailwindCss and MDX",
+  title: "HMSD Adyatama",
+  description: "HMSD Adyatama",
   keywords:
-    "blog teamplate, blog, template, nextjs, tailwind css, markdown, mdx, tailwindcss, nextjs template",
-  author: `Rupali Yadav, Mayur Nalwala`,
+    "Web Informatin",
+  author: `Admin`,
   twitterHandle: WEBSITE_TWITTER_HANDLE,
   ogImage: DEFAULT_OG_IMAGE,
 };
@@ -25,9 +25,4 @@ export const TERMS_PAGE_SEO: iMetaData = {
   description: `These terms and conditions outline the rules and regulations for the use of Website, located at ${WEBSITE_URL}.`,
 };
 
-export const PRIVACY_PAGE_SEO: iMetaData = {
-  ...DEFAULT_SEO,
-  title: "Privacy Policy",
-  description:
-    "This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in website.",
-};
+
